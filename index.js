@@ -1,0 +1,6 @@
+console.log(Object.prototype.toString.call('123')); //[object String]
+console.log(Object.prototype.toString.call([])); //[object Array]
+console.log(Object.prototype.toString.call({})); //[object Object]
+console.log(Object.prototype.toString.call(function() {})); //[object Function]
+console.log(Object.prototype.toString.call(new Date())); //[object Date]
+console.log(Object.prototype.toString.call(true)); //[object Boolean]
